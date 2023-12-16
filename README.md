@@ -24,5 +24,5 @@
 
 ## 기능 영상
 
-https://github.com/syk25/springboot/assets/129013571/d50343b5-4666-4a1f-ba74-1c3469a82cb0
+https://github.com/syk25/springboot/assets/129013571/0c3a8675-026c-4745-9a2e-73f69c696f30
 
