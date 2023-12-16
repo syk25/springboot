@@ -1,0 +1,28 @@
+<!DOC HTML>
+<html xmlns:th="http://www.tyhmeleaf.org">
+<body>
+<div class="container">
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>이름</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="member : ${members}">
+                <td th:text="${member.id}"></td>
+                <td th:text="${member.name}"></td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <form action="/">
+        <button type="submit">홈으로</button>
+    </form>
+</div>
+</body>
+
+</html>
